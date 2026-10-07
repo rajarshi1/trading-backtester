@@ -1,0 +1,58 @@
+{
+  "run_at_utc": "20261007-140359",
+  "asset_filter": "forex",
+  "symbol_filter": "EURUSD=X",
+  "strategy_filter": "all",
+  "timeframe": "1d",
+  "cash": 10000,
+  "commission": 0.001,
+  "results": [
+    {
+      "asset": "forex",
+      "symbol": "EURUSD=X",
+      "bars": 1305,
+      "strategies": {
+        "sma": {
+          "Return [%]": -4.73,
+          "Sharpe Ratio": -0.209,
+          "Profit Factor": 0.722,
+          "Max Drawdown [%]": -12.12,
+          "# Trades": 16,
+          "Win Rate [%]": 31.25
+        },
+        "rsi": {
+          "Return [%]": -14.44,
+          "Sharpe Ratio": -0.62,
+          "Profit Factor": 0.352,
+          "Max Drawdown [%]": -15.81,
+          "# Trades": 12,
+          "Win Rate [%]": 41.67
+        },
+        "donchian": {
+          "Return [%]": -8.14,
+          "Sharpe Ratio": -0.411,
+          "Profit Factor": 0.648,
+          "Max Drawdown [%]": -14.47,
+          "# Trades": 31,
+          "Win Rate [%]": 32.26
+        },
+        "fx_pullback": {
+          "Return [%]": 2.98,
+          "Sharpe Ratio": 0.253,
+          "Profit Factor": 1.56,
+          "Max Drawdown [%]": -3.31,
+          "# Trades": 14,
+          "Win Rate [%]": 64.29
+        },
+        "bb": {
+          "Return [%]": 8.37,
+          "Sharpe Ratio": 0.474,
+          "Profit Factor": 5.043,
+          "Max Drawdown [%]": -3.77,
+          "# Trades": 13,
+          "Win Rate [%]": 61.54
+        }
+      }
+    }
+  ]
+}

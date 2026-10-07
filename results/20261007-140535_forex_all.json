@@ -1,0 +1,293 @@
+{
+  "run_at_utc": "20261007-140535",
+  "asset_filter": "forex",
+  "symbol_filter": null,
+  "strategy_filter": "all",
+  "timeframe": "1d",
+  "cash": 10000,
+  "commission": 0.001,
+  "results": [
+    {
+      "asset": "forex",
+      "symbol": "EURUSD=X",
+      "bars": 1305,
+      "strategies": {
+        "sma": {
+          "Return [%]": -4.73,
+          "Sharpe Ratio": -0.209,
+          "Profit Factor": 0.722,
+          "Max Drawdown [%]": -12.12,
+          "# Trades": 16,
+          "Win Rate [%]": 31.25
+        },
+        "rsi": {
+          "Return [%]": -14.44,
+          "Sharpe Ratio": -0.62,
+          "Profit Factor": 0.352,
+          "Max Drawdown [%]": -15.81,
+          "# Trades": 12,
+          "Win Rate [%]": 41.67
+        },
+        "donchian": {
+          "Return [%]": -8.14,
+          "Sharpe Ratio": -0.411,
+          "Profit Factor": 0.648,
+          "Max Drawdown [%]": -14.47,
+          "# Trades": 31,
+          "Win Rate [%]": 32.26
+        },
+        "fx_pullback": {
+          "Return [%]": 2.98,
+          "Sharpe Ratio": 0.253,
+          "Profit Factor": 1.56,
+          "Max Drawdown [%]": -3.31,
+          "# Trades": 14,
+          "Win Rate [%]": 64.29
+        },
+        "bb": {
+          "Return [%]": 8.37,
+          "Sharpe Ratio": 0.474,
+          "Profit Factor": 5.043,
+          "Max Drawdown [%]": -3.77,
+          "# Trades": 13,
+          "Win Rate [%]": 61.54
+        }
+      }
+    },
+    {
+      "asset": "forex",
+      "symbol": "GBPUSD=X",
+      "bars": 1305,
+      "strategies": {
+        "sma": {
+          "Return [%]": 5.64,
+          "Sharpe Ratio": 0.202,
+          "Profit Factor": 1.685,
+          "Max Drawdown [%]": -7.74,
+          "# Trades": 12,
+          "Win Rate [%]": 41.67
+        },
+        "rsi": {
+          "Return [%]": 2.04,
+          "Sharpe Ratio": 0.058,
+          "Profit Factor": 1.164,
+          "Max Drawdown [%]": -13.02,
+          "# Trades": 15,
+          "Win Rate [%]": 60.0
+        },
+        "donchian": {
+          "Return [%]": -14.11,
+          "Sharpe Ratio": -0.609,
+          "Profit Factor": 0.422,
+          "Max Drawdown [%]": -15.95,
+          "# Trades": 31,
+          "Win Rate [%]": 51.61
+        },
+        "fx_pullback": {
+          "Return [%]": -2.25,
+          "Sharpe Ratio": -0.193,
+          "Profit Factor": 0.719,
+          "Max Drawdown [%]": -6.32,
+          "# Trades": 12,
+          "Win Rate [%]": 58.33
+        },
+        "bb": {
+          "Return [%]": 8.02,
+          "Sharpe Ratio": 0.345,
+          "Profit Factor": 2.984,
+          "Max Drawdown [%]": -7.6,
+          "# Trades": 10,
+          "Win Rate [%]": 80.0
+        }
+      }
+    },
+    {
+      "asset": "forex",
+      "symbol": "USDJPY=X",
+      "bars": 1305,
+      "strategies": {
+        "sma": {
+          "Return [%]": 25.08,
+          "Sharpe Ratio": 0.652,
+          "Profit Factor": 4.569,
+          "Max Drawdown [%]": -7.98,
+          "# Trades": 13,
+          "Win Rate [%]": 61.54
+        },
+        "rsi": {
+          "Return [%]": 23.0,
+          "Sharpe Ratio": 0.642,
+          "Profit Factor": 2.798,
+          "Max Drawdown [%]": -10.14,
+          "# Trades": 16,
+          "Win Rate [%]": 68.75
+        },
+        "donchian": {
+          "Return [%]": 25.19,
+          "Sharpe Ratio": 0.78,
+          "Profit Factor": 2.792,
+          "Max Drawdown [%]": -6.32,
+          "# Trades": 25,
+          "Win Rate [%]": 60.0
+        },
+        "fx_pullback": {
+          "Return [%]": -2.41,
+          "Sharpe Ratio": -0.185,
+          "Profit Factor": 0.764,
+          "Max Drawdown [%]": -5.07,
+          "# Trades": 14,
+          "Win Rate [%]": 50.0
+        },
+        "bb": {
+          "Return [%]": 2.19,
+          "Sharpe Ratio": 0.088,
+          "Profit Factor": 1.265,
+          "Max Drawdown [%]": -12.9,
+          "# Trades": 8,
+          "Win Rate [%]": 62.5
+        }
+      }
+    },
+    {
+      "asset": "forex",
+      "symbol": "USDCHF=X",
+      "bars": 1305,
+      "strategies": {
+        "sma": {
+          "Return [%]": 2.47,
+          "Sharpe Ratio": 0.095,
+          "Profit Factor": 0.869,
+          "Max Drawdown [%]": -9.46,
+          "# Trades": 15,
+          "Win Rate [%]": 40.0
+        },
+        "rsi": {
+          "Return [%]": 3.31,
+          "Sharpe Ratio": 0.119,
+          "Profit Factor": 1.308,
+          "Max Drawdown [%]": -10.65,
+          "# Trades": 14,
+          "Win Rate [%]": 50.0
+        },
+        "donchian": {
+          "Return [%]": -11.96,
+          "Sharpe Ratio": -0.581,
+          "Profit Factor": 0.485,
+          "Max Drawdown [%]": -17.69,
+          "# Trades": 30,
+          "Win Rate [%]": 26.67
+        },
+        "fx_pullback": {
+          "Return [%]": 0.63,
+          "Sharpe Ratio": 0.058,
+          "Profit Factor": 1.11,
+          "Max Drawdown [%]": -5.92,
+          "# Trades": 13,
+          "Win Rate [%]": 61.54
+        },
+        "bb": {
+          "Return [%]": 4.95,
+          "Sharpe Ratio": 0.284,
+          "Profit Factor": 1.616,
+          "Max Drawdown [%]": -5.9,
+          "# Trades": 11,
+          "Win Rate [%]": 63.64
+        }
+      }
+    },
+    {
+      "asset": "forex",
+      "symbol": "AUDUSD=X",
+      "bars": 1305,
+      "strategies": {
+        "sma": {
+          "Return [%]": -11.45,
+          "Sharpe Ratio": -0.354,
+          "Profit Factor": 0.606,
+          "Max Drawdown [%]": -25.96,
+          "# Trades": 15,
+          "Win Rate [%]": 26.67
+        },
+        "rsi": {
+          "Return [%]": -8.58,
+          "Sharpe Ratio": -0.227,
+          "Profit Factor": 0.893,
+          "Max Drawdown [%]": -15.34,
+          "# Trades": 14,
+          "Win Rate [%]": 50.0
+        },
+        "donchian": {
+          "Return [%]": -0.52,
+          "Sharpe Ratio": -0.016,
+          "Profit Factor": 1.011,
+          "Max Drawdown [%]": -15.61,
+          "# Trades": 25,
+          "Win Rate [%]": 32.0
+        },
+        "fx_pullback": {
+          "Return [%]": -4.43,
+          "Sharpe Ratio": -0.332,
+          "Profit Factor": 0.619,
+          "Max Drawdown [%]": -10.31,
+          "# Trades": 12,
+          "Win Rate [%]": 50.0
+        },
+        "bb": {
+          "Return [%]": 8.79,
+          "Sharpe Ratio": 0.367,
+          "Profit Factor": 5.054,
+          "Max Drawdown [%]": -6.79,
+          "# Trades": 9,
+          "Win Rate [%]": 88.89
+        }
+      }
+    },
+    {
+      "asset": "forex",
+      "symbol": "USDCAD=X",
+      "bars": 1305,
+      "strategies": {
+        "sma": {
+          "Return [%]": -5.65,
+          "Sharpe Ratio": -0.26,
+          "Profit Factor": 0.288,
+          "Max Drawdown [%]": -12.44,
+          "# Trades": 15,
+          "Win Rate [%]": 33.33
+        },
+        "rsi": {
+          "Return [%]": -3.14,
+          "Sharpe Ratio": -0.132,
+          "Profit Factor": 0.723,
+          "Max Drawdown [%]": -10.91,
+          "# Trades": 15,
+          "Win Rate [%]": 46.67
+        },
+        "donchian": {
+          "Return [%]": -3.54,
+          "Sharpe Ratio": -0.166,
+          "Profit Factor": 0.646,
+          "Max Drawdown [%]": -14.75,
+          "# Trades": 31,
+          "Win Rate [%]": 32.26
+        },
+        "fx_pullback": {
+          "Return [%]": -3.62,
+          "Sharpe Ratio": -0.305,
+          "Profit Factor": 0.618,
+          "Max Drawdown [%]": -6.28,
+          "# Trades": 15,
+          "Win Rate [%]": 46.67
+        },
+        "bb": {
+          "Return [%]": -2.46,
+          "Sharpe Ratio": -0.208,
+          "Profit Factor": 0.555,
+          "Max Drawdown [%]": -6.07,
+          "# Trades": 8,
+          "Win Rate [%]": 37.5
+        }
+      }
+    }
+  ]
+}

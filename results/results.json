@@ -1,0 +1,94 @@
+[
+  {
+    "asset": "stock",
+    "symbol": "SPY",
+    "bars": 1258,
+    "strategies": {
+      "sma": {
+        "Return [%]": 47.32,
+        "Sharpe Ratio": 0.629,
+        "Profit Factor": 2.58,
+        "Max Drawdown [%]": -26.86,
+        "# Trades": 10,
+        "Win Rate [%]": 50.0
+      },
+      "rsi": {
+        "Return [%]": 29.22,
+        "Sharpe Ratio": 0.317,
+        "Profit Factor": 2.381,
+        "Max Drawdown [%]": -27.08,
+        "# Trades": 13,
+        "Win Rate [%]": 76.92
+      }
+    }
+  },
+  {
+    "asset": "future",
+    "symbol": "ES=F",
+    "bars": 1259,
+    "strategies": {
+      "sma": {
+        "Return [%]": 40.28,
+        "Sharpe Ratio": 0.638,
+        "Profit Factor": 2.071,
+        "Max Drawdown [%]": -23.25,
+        "# Trades": 10,
+        "Win Rate [%]": 50.0
+      },
+      "rsi": {
+        "Return [%]": 11.14,
+        "Sharpe Ratio": 0.138,
+        "Profit Factor": 2.009,
+        "Max Drawdown [%]": -27.62,
+        "# Trades": 13,
+        "Win Rate [%]": 76.92
+      }
+    }
+  },
+  {
+    "asset": "forex",
+    "symbol": "EURUSD=X",
+    "bars": 1305,
+    "strategies": {
+      "sma": {
+        "Return [%]": -4.73,
+        "Sharpe Ratio": -0.209,
+        "Profit Factor": 0.722,
+        "Max Drawdown [%]": -12.12,
+        "# Trades": 16,
+        "Win Rate [%]": 31.25
+      },
+      "rsi": {
+        "Return [%]": -14.44,
+        "Sharpe Ratio": -0.62,
+        "Profit Factor": 0.352,
+        "Max Drawdown [%]": -15.81,
+        "# Trades": 12,
+        "Win Rate [%]": 41.67
+      }
+    }
+  },
+  {
+    "asset": "crypto",
+    "symbol": "BTC/USDT",
+    "bars": 1828,
+    "strategies": {
+      "sma": {
+        "Return [%]": 12.23,
+        "Sharpe Ratio": 0.182,
+        "Profit Factor": 3.826,
+        "Max Drawdown [%]": -16.2,
+        "# Trades": 2,
+        "Win Rate [%]": 50.0
+      },
+      "rsi": {
+        "Return [%]": -20.64,
+        "Sharpe Ratio": -0.246,
+        "Profit Factor": 0.0,
+        "Max Drawdown [%]": -41.91,
+        "# Trades": 1,
+        "Win Rate [%]": 0.0
+      }
+    }
+  }
+]
